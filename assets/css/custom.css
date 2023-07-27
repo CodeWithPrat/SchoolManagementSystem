@@ -1,0 +1,87 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f6f6;
+    padding-top:50px;
+}
+
+textarea{
+    resize: none;
+    height: 70px !important;
+}
+
+.control-label{
+    margin-top: 5px;
+}
+
+.panel{
+    margin: 20px auto;
+    max-width: 1000px;
+    /*    text-align: center;*/
+}
+
+.panel-heading{
+    border-bottom: solid 1px #ddd;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.install-step-group{
+    margin: 20px 0;
+}
+
+.install-step-group > div{
+    padding:0;
+}
+
+.circle{
+    background-color: #fff;
+    border: solid 3px #679368;
+    color: #679368;
+    width:38px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.circle.active{
+    background-color: #679368;
+    color: #fff;
+    border:double 3px #fff;
+}
+
+.clear{
+    width: 100%;
+    clear: both;
+    height: 0;
+    float: none;
+}
+
+.tips{
+    color: #f00;
+}
+
+.step-line{
+    background-color:#679368;
+    height: 10px;
+    top:-35px;
+    left: 5px;
+    z-index: -1;
+    position: relative;
+}
+
+@media (max-width: 768px){
+    .install-step-group{
+        display: none;
+    }
+}
